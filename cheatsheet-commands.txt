@@ -15,3 +15,6 @@ pip install -r requirements.txt
 
 # create new project (in activated virtual environment)
 django-admin.py startproject profile_project .
+
+# create app (in activated virtual environment)
+python manage.py startapp profiles_api
