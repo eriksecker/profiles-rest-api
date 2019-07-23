@@ -12,3 +12,6 @@ deactivate
 
 # install requirements (virtual environment needs to be activate during this step)
 pip install -r requirements.txt
+
+# create new project (in activated virtual environment)
+django-admin.py startproject profile_project .
