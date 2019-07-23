@@ -1,0 +1,11 @@
+vagrant ssh
+cd /vagrant
+
+# Initialize virtual environment
+python -m venv ~/env
+
+# activate virtual environment
+source ~/env/bin/activate
+
+# deactivate virtual environment
+deactivate
