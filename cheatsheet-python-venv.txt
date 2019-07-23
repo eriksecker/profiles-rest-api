@@ -9,3 +9,6 @@ source ~/env/bin/activate
 
 # deactivate virtual environment
 deactivate
+
+# install requirements (virtual environment needs to be activate during this step)
+pip install -r requirements.txt
