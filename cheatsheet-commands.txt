@@ -20,6 +20,8 @@ django-admin.py startproject profile_project .
 python manage.py startapp profiles_api
 
 # launch development webserver
+# website: localhost:8000
+# django admin: localhost:8000/admin
 python manage.py runserver 0.0.0.0:8000
 
 # create migration from models
