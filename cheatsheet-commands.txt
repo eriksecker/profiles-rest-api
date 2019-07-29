@@ -21,3 +21,9 @@ python manage.py startapp profiles_api
 
 # launch development webserver
 python manage.py runserver 0.0.0.0:8000
+
+# create migration from models
+python manage.py makemigrations profiles_api
+
+# run migrations
+python manage.py migrate
